@@ -1,0 +1,8 @@
+<launch>
+    <node name="tfpose_navi" pkg="tfpose_navi" type="tfpose_navi_node" output="screen">
+        <param name="front_dist" value="2.0"/> 
+        <param name="back_dist" value="-2.0"/> 
+        <param name="left_dist" value="2.0"/> 
+        <param name="right_dist" value="-2.0"/> 
+    </node>
+</launch>
