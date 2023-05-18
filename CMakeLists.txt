@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.0.2)
-project(tfpose_navi)
+project(shiftmove_tf)
 
 find_package(catkin REQUIRED COMPONENTS
     nav_msgs
@@ -24,6 +24,6 @@ include_directories(
 )
 
 
-add_executable(tfpose_navi_node src/tfpose_navi_node.cpp )
-target_link_libraries(tfpose_navi_node  ${catkin_LIBRARIES} )
-install(TARGETS tfpose_navi_node RUNTIME DESTINATION ${CATKIN_PACKAGE_BIN_DESTINATION} )
+add_executable(shiftmove_tf_node src/shiftmove_tf_node.cpp )
+target_link_libraries(shiftmove_tf_node  ${catkin_LIBRARIES} )
+install(TARGETS shiftmove_tf_node RUNTIME DESTINATION ${CATKIN_PACKAGE_BIN_DESTINATION} )

@@ -1,5 +1,5 @@
 <launch>
-    <node name="tfpose_navi" pkg="tfpose_navi" type="tfpose_navi_node" output="screen">
+    <node name="shiftmove_tf" pkg="shiftmove_tf" type="shiftmove_tf_node" output="screen">
         <param name="front_dist" value="2.0"/> 
         <param name="back_dist" value="-2.0"/> 
         <param name="left_dist" value="2.0"/> 
